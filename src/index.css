@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 p-4 lg:p-12;
+}
+.tiptap {
+  @apply bg-white !max-w-3xl prose-p:my-3 p-4 mx-auto prose outline-none focus:ring-2 ring-indigo-600 ring-offset-2 rounded-lg border;
+}
